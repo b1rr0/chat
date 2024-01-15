@@ -1,0 +1,11 @@
+database:
+  url: "mongodb://localhost:27018"
+  dbname: "chat"
+  username: "admin"
+  password: "qwerty"
+
+server:
+  port: "3000"
+  secret: "jdnfksdmfksda"
+  #release | debug
+  mode: "release"
